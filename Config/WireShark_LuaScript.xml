@@ -1,0 +1,19 @@
+<DataTool project="WireShark" name="LuaScript" version="1.0.0.1" author="ChenJilian">
+    <Global>
+	</Global>
+    <Input path="D:\System\Desktop\Temp">
+        <InputPath>
+            <InputFile type="Single" format="Xml" name="ATS-CBI.xml" path="">
+                <WireSharkScript type="Single" project="String" name="|String" version="String" author="String">
+                    <Branch type="Single" port="UINT16[]" endian="String"/>
+                    <Proto type="Multiple" name="|String" endian="String"/>
+                </WireSharkScript>
+            </InputFile>
+        </InputPath>
+    </Input>
+    <Output path="E:\Wireshark\lua_CJL">
+        <Outputpath path="" describe="">
+            <OutputFile type="Single" format="Lua" name="WireShark_LuaScript_{local:project}_{local:name}_{local:version}_{local:author}.lua" path="" describe=""/>
+        </Outputpath>
+    </Output>
+</DataTool>
